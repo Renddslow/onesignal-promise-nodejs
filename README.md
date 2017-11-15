@@ -4,7 +4,7 @@ A super simple promise-based node sdk for creating, canceling, and view notifica
 # Super simple to use
 ```js
 const oneSignal = require('onesignal')({ appId: 'APP_ID', apiKey: 'API_KEY' });
-oneKey.createNotification({ contents: {'en': 'Hello World'} })
+oneSignal.createNotification({ contents: {'en': 'Hello World'} })
 	.then(res => {
 		if (!res.errors) {
 			console.log(res.id);
