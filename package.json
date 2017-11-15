@@ -1,0 +1,35 @@
+{
+  "name": "onesignal-promise",
+  "version": "1.0.0",
+  "description": "An asynchronous wrapper for OneSignal notification API",
+  "main": "oneSignal.js",
+  "scripts": {
+    "test": "tape 'src/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renddslow/onesignal-promise-nodejs.git"
+  },
+  "keywords": [
+    "onesignal",
+    "notifications",
+    "one-signal",
+    "notification",
+    "apns",
+    "gcm",
+    "promises"
+  ],
+  "author": "Matt McElwee <mubatt@wyopub.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Renddslow/onesignal-promise-nodejs/issues"
+  },
+  "homepage": "https://github.com/Renddslow/onesignal-promise-nodejs#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
