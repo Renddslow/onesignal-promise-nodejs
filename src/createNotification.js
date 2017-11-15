@@ -7,10 +7,6 @@ module.exports = ({ appId, apiKey }) => {
 	return (data) => {
 		return Bluebird.try(() => {
 			const message = extend(true, {}, data);
-			
-			if (!message.included_segments || !message.included_segments.length) {
-				message.included_segments = ['All']
-			}
 			if (!message.contents) {
 				throw Error('Contents are required in notification');
 			}
