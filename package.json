@@ -1,6 +1,6 @@
 {
   "name": "onesignal-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An asynchronous wrapper for OneSignal notification API",
   "main": "index.js",
   "scripts": {
